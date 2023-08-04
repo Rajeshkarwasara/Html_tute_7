@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black;
+}
+
+.laftnav img {
+    width: 79%;
+
+}
+
+.fonts ul {
+    list-style: none;
+    display: flex;
+    margin-top: 11px;
+}
+
+.fonts li a {
+    text-decoration: none;
+    color: black;
+}
+
+.laftnav {
+    width: 12%;
+    margin-left: 11%;
+}
+
+
+
+.allnav {
+
+    display: flex;
+
+    background-color: white;
+    padding: 9px;
+}
+
+.fonts ul li {
+    padding: 0px 0px 0px 53px;
+}
+
+.fonts {
+    margin-left: -4%;
+    width: 65%;
+}
+
+.rightnav ul {
+    list-style: none;
+}
+
+.rightnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    display: flex;
+    margin-top: 11px;
+}
+
+.fa-solid.fa-phone {
+    padding: 0px 20px 0px 20px;
+}
+
+.secndnav {
+    width: 100%;
+    display: flex;
+    background: skyblue;
+    padding: 23px;
+}
+
+
+.one ul {
+    list-style: none;
+    display: flex;
+    margin-top: 7px;
+}
+
+.one li a {
+    text-decoration: none;
+    color: black;
+}
+
+.one {
+    display: flex;
+    margin-left: 10%;
+    width: 81%;
+}
+
+.one li {
+    padding: 0px 0px 0px 80px;
+}
+
+.fa-solid.fa-house {
+    font-size: 25px;
+}
+
+.search {
+    margin-top: 6px;
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-size: 18px;
+}
+
+.number select {
+    border: none;
+    background: white;
+}
+
+.all {
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    font-size: 20px;
+    margin-top: 8%;
+    margin-left: 11%;
+}
+
+
+
+.left ul {
+    list-style: none;
+    margin-top: 7%;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    padding: 9px;
+}
+
+.left ul a:hover {
+    background: skyblue;
+    color: black;
+}
+.imgs {
+    width: 50%;
+    position: relative;
+}
+
+.imgs img {
+    width: 69%;
+    margin-top: 17%;
+    position: relative;
+}
+
+.imgs:hover .bg{
+    position: absolute;
+    background-color: red;
+    width: 69%;
+    height: 230px;
+    transform: rotate(2deg);
+    margin-top: 120px;
+}
